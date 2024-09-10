@@ -1,25 +1,27 @@
 # 简要介绍
 
-Pay聚合支付本项目是基于Java开发的四方聚合支付系统。本项目基于SpringBoot开发，可用来搭建和二次开发聚合支付系统，有完整的后台管理（后端+前端）、前台（API接口）源码。
+Pay聚合支付本项目是基于Java开发的四方聚合支付系统，无挂机监听支付宝周转码、商业码，支付宝个人码的自动回调。
+
+本项目基于SpringBoot开发，可用来搭建和二次开发聚合支付系统，有完整的后台管理（后端+前端）、前台（API接口）源码。
 
  
 # 提供部署
 
 有偿技术支持
-[Telegram](https://t.me/pauItan)https://t.me/pauItan
+[Telegram：] (https://t.me/pauItan) , https://t.me/pauItan
 
 
 ### Pay聚合支付演示地址：
 
-系统端：[https://30pay.com](https://30pay.com) 账号:paysys 登录密码：123456@ 
+系统端：[https://30pay.info](https://30pay.info) 账号:paysys 登录密码：123456@ 
 
-代理端：[https://30pay.com](https://30pay.com) 账号:payagent 登录密码：123456@ 
+代理端：[https://30pay.info](https://30pay.info) 账号:payagent 登录密码：123456@ 
 
-商户端：[https://30pay.com](https://30pay.com) 账号:paymerchant 登录密码：123456@ 
+商户端：[https://30pay.info](https://30pay.info) 账号:paymerchant 登录密码：123456@ 
 
-支付端：[https://pay.30pay.com](https://pay.30pay.com) 此为演示端,商户API接入后,直接调用支付链接 payUrl
+支付端：[https://30pay.info](https://30pay.info) 此为演示端,商户API接入后,直接调用支付链接 payUrl
 
-测试账号密码会定期更改，如无法登录，请联系 [Telegram](https://t.me/pauItan)https://t.me/pauItan 索聚账号与密码
+测试账号密码会定期更改，如无法登录，请联系 [Telegram：] (https://t.me/pauItan) , https://t.me/pauItan  索取账号与密码
 
 系统采用JAVA语言开发 可以自行二次开发
 
@@ -39,7 +41,7 @@ Pay聚合支付 是一套开箱即用、适合拿来直接运营的聚合支付�
 
 注：不提供软件开发环境搭建、不提供java基础辅导、仅限该系统业务技术交流。
 
-### 如需要最新完整商业版本请联系 飞机(Telegram)：[Telegram](https://t.me/pauItan)https://t.me/pauItan
+### 如需要最新完整商业版本请联系 飞机(Telegram)：[Telegram：] (https://t.me/pauItan) , https://t.me/pauItan
 
 ### 警告警告警告
 
