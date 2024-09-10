@@ -8,7 +8,7 @@ Pay聚合支付本项目是基于Java开发的四方聚合支付系统，无挂�
 # 提供部署
 
 有偿技术支持
-[Telegram：] (https://t.me/R0BERTAN) , https://t.me/R0BERTAN
+[Telegram纸飞机] (https://t.me/R0BERTAN) 
 
 
 ### Pay聚合支付演示地址：
@@ -21,7 +21,7 @@ Pay聚合支付本项目是基于Java开发的四方聚合支付系统，无挂�
 
 支付端：[https://pay.30pay.info](https://pay.30pay.info) 此为演示端,商户API接入后,直接调用支付链接 payUrl
 
-测试账号密码会定期更改，如无法登录，请联系 [Telegram纸飞机] (https://t.me/R0BERTAN) , https://t.me/R0BERTAN  索取账号与密码
+测试账号密码会定期更改，如无法登录，请联系 [Telegram纸飞机] (https://t.me/R0BERTAN)   索取账号与密码
 
 系统采用JAVA语言开发 可以自行二次开发
 
@@ -41,7 +41,7 @@ Pay聚合支付 是一套开箱即用、适合拿来直接运营的聚合支付�
 
 注：不提供软件开发环境搭建、不提供java基础辅导、仅限该系统业务技术交流。
 
-### 如需要最新完整商业版本请联系 飞机(Telegram)：[Telegram纸飞机] (https://t.me/R0BERTAN) , https://t.me/R0BERTAN
+### 如需要最新完整商业版本请联系 飞机(Telegram)：[Telegram纸飞机] (https://t.me/R0BERTAN)
 
 ### 警告警告警告
 
@@ -61,7 +61,7 @@ Pay聚合支付 是一套开箱即用、适合拿来直接运营的聚合支付�
 
 ### 请注意 因是商业源码的缘故 故只上传其中的核心代码 非全部源码 上传的源码供技术牛参考
 
-### 若要完整运营源码 请联系纸飞机 [Telegram纸飞机] (https://t.me/R0BERTAN) , https://t.me/R0BERTAN
+### 若要完整运营源码 请联系纸飞机 [Telegram纸飞机] (https://t.me/R0BERTAN) 
  
  
 
