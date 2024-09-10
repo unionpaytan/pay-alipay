@@ -15,7 +15,9 @@ Pay聚合支付本项目是基于Java开发的四方聚合支付系统，无挂�
 
 系统端：[https://30pay.info](https://30pay.info) 账号:paysys 登录密码：123456@ 
 
-代理端：[https://30pay.info](https://30pay.info) 账号:payagent 登录密码：123456@ 
+码商端：[https://30pay.info](https://30pay.info) 账号:payagent 登录密码：123456@ 
+
+码商操作员端：[https://30pay.info](https://30pay.info) 账号:payoperator 登录密码：123456@ 
 
 商户端：[https://30pay.info](https://30pay.info) 账号:paymerchant 登录密码：123456@ 
 
