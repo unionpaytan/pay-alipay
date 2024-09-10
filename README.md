@@ -1,62 +1,63 @@
 # 简要介绍
-本项目是基于Java开发的比特币交易所 | BTC交易所 | ETH交易所 | 数字货币交易所 | 交易平台 | 撮合交易引擎。本项目基于SpringCloud微服务开发，可用来搭建和二次开发数字货币交易所，有完整的撮合交易引擎源码、后台管理（后端+前端）、前台（交易页面、活动页面、个人中心等）、安卓APP源码(有偿提供）、苹果APP源码(有偿提供）、币种钱包RPC源码。
-### 功能简介
-同时有另外一个版本，后端是PHP+Golang，APP是Flutter（安卓+iOS），网页端是VUE。可在线联系：[Telegram](https://t.me/Dr_zhhi)https://t.me/Dr_zhhi
-多国法币多国支付方式的OTC、币币交易、闪兑、币本位永续合约、U本位永续合约、期权合约、秒合约、理财（定期/定投）、ICO申购、邀请奖励机制、代理机制、交易机器人等市面常见需求功能。已在市场运行多套，确定完善无BUG。
-类似欧易交易所（交易所功能+web3钱包）正在开发中...详情可在线联系：[Telegram](https://t.me/Dr_zhhi)https://t.me/Dr_zhhi
-提供部署教程 海外项目提供有偿技术支持
 
+Pay聚合支付本项目是基于Java开发的四方聚合支付系统。本项目基于SpringBoot开发，可用来搭建和二次开发聚合支付系统，有完整的后台管理（后端+前端）、前台（API接口）源码。
+
+ 
+# 提供部署
+
+有偿技术支持
+[Telegram](https://t.me/pauItan)https://t.me/pauItan
+
+
+### Pay聚合支付演示地址：
+
+系统端：[https://30pay.com](https://30pay.com) 账号:paysys 登录密码：123456@ 
+
+代理端：[https://30pay.com](https://30pay.com) 账号:payagent 登录密码：123456@ 
+
+商户端：[https://30pay.com](https://30pay.com) 账号:paymerchant 登录密码：123456@ 
+
+支付端：[https://pay.30pay.com](https://pay.30pay.com) 此为演示端,商户API接入后,直接调用支付链接 payUrl
+
+测试账号密码会定期更改，如无法登录，请联系 [Telegram](https://t.me/pauItan)https://t.me/pauItan 索聚账号与密码
+
+系统采用JAVA语言开发 可以自行二次开发
+
+Pay聚合支付 是一套开箱即用、适合拿来直接运营的聚合支付系统。系统适合有技术团队的企业购买，我司可提供程序源码、技术文档和售后技术支持服务。
+
+程序源码和文档包括哪些？
+
+源码包括：所有Java服务端源码和VUE前端源码，可二次开发，想怎么改就怎么改，So Easy !
+
+文档包括：开发说明、系统部署、通道对接、API接口、线上运维、系统业务等。
+
+# 技术支持有哪些服务？
+
+针对每个购买的客户，我司会单独创建群，至少指定一名技术支持人员单独提供售后技术支持。
+
+技术支持内容包括：系统部署指导、二次开发指导、反馈Bug的修复、需求的收集等。
+
+注：不提供软件开发环境搭建、不提供java基础辅导、仅限该系统业务技术交流。
+
+### 如需要最新完整商业版本请联系 飞机(Telegram)：[Telegram](https://t.me/pauItan)https://t.me/pauItan
 
 ### 警告警告警告
-运营一家交易所是非常不容易的.
-
-本交易所可以使你很容易的建立一套数字货币交易系统，但是，她远远比搭建一个网站要难的多得多.不要以为简单的就是点击下一步，下一步即可完成。整个体系架构分为了很多的组件，需要专业的知识或者团队才能运行成功，好在有我们，可以随时联系我们。可在线联系：[Telegram](https://t.me/Dr_zhhi)https://t.me/Dr_zhhi
-
-系统安全知识
-
-本框架不能保护你的数字资产安全，也不能保证你的系统运行安全。在部署过程中，需要注意网络安全的设置，如果你不在行的话，可以找一个专业的运维人员。
-
-法律风险
 
 法律风险第一条：不要触犯中华人民共和国的法律条例。不要触犯中华人民共和国的法律条例。不要触犯中华人民共和国的法律条例。重要的事情讲三遍！！！
+
 技术无罪，请在法律范围内使用本项目。
-如果你想使用交易所作为商业应用，最好请个律师，确保你的商业应用在法律允许的范围内。一切用于商业化项目所带来的法律和经济问题，本团队概不负责。
 
-JAVA主要技术
-后端：Spring、SpringMVC、SpringData、SpringCloud、SpringBoot
-数据库：Mysql、Mongodb
-其他：redis、kafka、阿里云OSS、环信推送
-前端：Vue、iView、less
-
-PHP+GO运行环境
-Centos 7.9
-MySQL 5.7.40
-Redis 7.0.5
-nginx 1.22.1
-php 7.4.33
-pm2
-node.js
-Vue
-dooker
+如果你想使用交易所作为商业应用，请确保你的商业应用在法律允许的范围内。一切用于商业化项目所带来的法律和经济问题，本团队概不负责。
 
 主要技术
-后端：php、laravel-admin、go
-数据库：Mysql、tdengine
-其他：redis、docker
-前端：Vue、iView、less、Flutter
+后端：JAVA、Spring、SpringBoot
+数据库：Mysql、Mongodb
+其他：redis、activemq、nodejs
+前端：Vue
 
-测试环境
-测试环境仅供学习参考！！！请各位学习的小伙伴合理运用。
-
-测试环境地址（仅供查看和学习） :
-
-前端：https://bittrex-asia.com/ 
-账户：1881234 
-密码：123123qw
-
-APP及其他在线联系[Telegram](https://t.me/Dr_zhhi)https://t.me/Dr_zhhi
-
-
+请各位学习的小伙伴合理运用。
+ 
+ 
 
 ![系统后台](https://cdn.jsdelivr.net/gh/unionpaytan/pay-alipay@main/%E7%B3%BB%E7%BB%9F%E7%95%8C%E9%9D%A2/%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0.png?raw=true "系统后台")
 
