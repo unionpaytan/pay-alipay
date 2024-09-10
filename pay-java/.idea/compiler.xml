@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bootpay-pay" />
+        <module name="bootpay-generator" />
+        <module name="bootpay-channel" />
+        <module name="bootpay-common" />
+        <module name="bootpay-mng" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bootpay" options="-parameters" />
+      <module name="bootpay-channel" options="-parameters" />
+      <module name="bootpay-common" options="-parameters" />
+      <module name="bootpay-generator" options="-parameters" />
+      <module name="bootpay-mng" options="-parameters" />
+      <module name="bootpay-pay" options="-parameters" />
+    </option>
+  </component>
+</project>

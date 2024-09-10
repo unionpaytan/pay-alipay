@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.boot</groupId>
+    <artifactId>bootpay</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>bootpay-mng</artifactId>
+  <name>bootpay-mng</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+
+      <dependency>
+          <groupId>com.google.zxing</groupId>
+          <artifactId>core</artifactId>
+          <version>3.4.0</version> <!-- Use the latest version available -->
+      </dependency>
+      <dependency>
+          <groupId>com.google.zxing</groupId>
+          <artifactId>javase</artifactId>
+          <version>3.4.0</version> <!-- Use the latest version available -->
+      </dependency>
+
+      <!-- 通用服务接口服务jar -->
+		<dependency>
+			<groupId>com.boot</groupId>
+			<artifactId>bootpay-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 工具类jar -->
+		<dependency>
+			<groupId>com.boot</groupId>
+			<artifactId>bootpay-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 代付通道接口 -->
+		<dependency>
+			<groupId>com.boot</groupId>
+			<artifactId>bootpay-channel</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+      </dependency>
+  </dependencies>
+</project>

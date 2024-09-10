@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.boot</groupId>
+		<artifactId>bootpay</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>bootpay-channel</artifactId>
+	<name>bootpay-channel</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<!-- 业务接口服务jar -->
+		<dependency>
+			<groupId>com.boot</groupId>
+			<artifactId>bootpay-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 工具类jar -->
+		<dependency>
+			<groupId>com.boot</groupId>
+			<artifactId>bootpay-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>ucf</groupId>
+			<artifactId>java-sdk</artifactId>
+			<version>1.0.3</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/ucf-java-sdk-1.0.3.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>gateway</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/gateway-common-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>gateway</groupId>
+			<artifactId>domain</artifactId>
+			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/gateway-domain-0.0.1-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<!-- 快捷通jar -->
+		<dependency>
+			<groupId>m2</groupId>
+			<artifactId>sdk</artifactId>
+			<version>2.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/m2_sdk_2.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>jcoreplus</groupId>
+			<artifactId>gson</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/jcoreplus-gson_1.0.jar</systemPath>
+		</dependency>
+		<!-- 裕福jar -->
+		<dependency>
+			<groupId>payplatform</groupId>
+			<artifactId>security</artifactId>
+			<version>1.0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/payplatform-security-1.0.1.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>lianlianpay</groupId>
+			<artifactId>security</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/lianlianpay-security-1.0.0.jar</systemPath>
+		</dependency>
+
+		<!-- tron -->
+		<dependency>
+			<groupId>org.tron.trident</groupId>
+			<artifactId>abi</artifactId>
+			<version>0.3.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/abi-0.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.tron.trident</groupId>
+			<artifactId>utils</artifactId>
+			<version>0.3.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/utils-0.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.tron.trident</groupId>
+			<artifactId>core</artifactId>
+			<version>0.3.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/core-0.3.0.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.8.15</version>
+		</dependency>
+
+		<!-- 添加grpc相关依赖包 -->
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-netty-shaded</artifactId>
+			<version>1.40.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-protobuf</artifactId>
+			<version>1.40.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-stub</artifactId>
+			<version>1.40.1</version>
+		</dependency>
+		<dependency> <!-- necessary for Java 9+ -->
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>annotations-api</artifactId>
+			<version>6.0.53</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.68</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/libs/bcprov-jdk15on-1.68.jar</systemPath>
+		</dependency>
+
+		<!-- slf log -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+    </dependencies>
+	<build>
+		<resources>
+			<resource>
+				<directory>src/libs</directory>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
+		</resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

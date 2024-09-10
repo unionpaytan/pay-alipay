@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    display: block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+.vam{
+    vertical-align: middle;
+}
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.cl {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-m {
+    align-items: center;
+}
+.flex-a{
+    justify-content: space-around
+}
+.flex-b{
+    justify-content: space-between
+}
+.flex-r{
+    flex-direction:row-reverse;
+}
+.flex-c{
+    justify-content:center
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.flex-2 {
+    flex: 2
+}
+
+.flex-3 {
+    flex: 3
+}
+
+.flex-4 {
+    flex: 4
+}
+
+.flex-5 {
+    flex: 5
+}
+.mid {
+    vertical-align: middle
+}
+.center{
+    margin: 0 auto;
+}
+
+@for $i from 5 through 12 {
+    .fs#{$i * 2} {
+        font-size: $i * 2px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .mr#{$i * 5} {
+        margin-right: $i * 5px !important;
+    }
+    .ml#{$i * 5} {
+        margin-left: $i * 5px !important;
+    }
+    .mt#{$i * 5} {
+        margin-top: $i * 5px !important;
+    }
+    .mb#{$i * 5} {
+        margin-bottom: $i * 5px !important;
+    }
+    .mg#{$i * 5} {
+        margin: $i * 5px !important;
+    }
+    .pr#{$i * 5} {
+        padding-right: $i * 5px !important;
+    }
+    .pl#{$i * 5} {
+        padding-left: $i * 5px !important;
+    }
+    .pt#{$i * 5} {
+        padding-top: $i * 5px !important;
+    }
+    .pb#{$i * 5} {
+        padding-bottom: $i * 5px !important;
+    }
+    .pd#{$i*5} {
+        padding: $i * 5px !important;
+    }
+}
+
+@for $i from 1 through 50 {
+    .w#{$i * 10} {
+        width: $i * 10px !important;
+    }
+    @if $i<21 {
+        .w#{$i * 5}p {
+            width: $i * 5%;
+        }
+    }
+}
+
+
+.round{
+    border-radius: 50%;
+}
+
+//样式重置
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar>.el-menu{
+    border: none;
+}
+
+
+.viewTag .el-tag .el-icon-close{
+    color: #495060;
+  }
+
+  .viewTag .el-tag .el-icon-close:hover{
+    background-color: #eee !important;
+    
+  }
+
+  .viewTag  .el-tag.active .el-icon-close:hover{
+    background-color: #b1acac !important;
+    
+  }
+  .viewTag  .el-tag.active .el-icon-close{
+      color: #fff !important
+
+  }
+  .MainSearch{
+      .el-select,.el-date-editor{
+        width:100%;
+      }
+  }
+.el-select{width:100%;}
+.el-input{width:100%;}
+.el-date-editor,.el-date-editor.el-input,.el-cascader{width:100%;}
+.bitian:before {
+    content: '*';
+    color: #f56c6c;
+    margin-right: 4px;
+}
+.spanb{color: #65c7ff;margin-right:5px;cursor: pointer;}
+.spanr{color: #f56c6c;margin-right:5px;cursor: pointer;}
+
+#orderdetails {
+    .el-form-item__label{
+      font-size: 13px !important; 
+    }
+}
+
+.order_content{
+    .el-tabs__header{
+        margin: 0 !important;
+    }
+}
+
+.m_selectBtn{
+    width:70px;
+    height: 30px;
+    color: #fff;
+    .el-input{
+        
+        &:after{
+            content: "添加岗位";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 9px;
+            width: 100%;
+            height: 100%;
+            // color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .el-input__inner{
+            color: #fff !important;
+            background-color: #409EFF !important;
+            border-color: #409EFF !important;
+        }
+        .el-input__suffix{
+            
+            .el-input__suffix-inner{
+                
+                .el-input__icon{
+                    &:before{
+                        content:""
+                    }
+                }
+            }
+        }
+    }
+}
+
+.m_rankBtn{
+    width:70px;
+    height: 30px;
+    color: #fff;
+    .el-input{
+        
+        &:after{
+            content: "添加职级";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 9px;
+            width: 100%;
+            height: 100%;
+            // color: #fff;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .el-input__inner{
+            color: #fff !important;
+            background-color: #409EFF !important;
+            border-color: #409EFF !important;
+        }
+        .el-input__suffix{
+            
+            .el-input__suffix-inner{
+                
+                .el-input__icon{
+                    &:before{
+                        content:""
+                    }
+                }
+            }
+        }
+    }
+}
+.m_scroll{
+    .el-dialog{
+        display: flex;
+        flex-direction: column;
+        max-height: calc(80% - 30px);
+        .el-dialog__body{
+            overflow: auto;
+        }
+    }
+}
+
+.mtable{
+    border: 1px solid #eee !important;
+   
+}
+
+.red{
+    color: #ff0000;
+  }
+
+  .redBackground{
+    background-color: #ff0000 !important;
+  }
+  
+  .green{
+    color: #67C23A
+  }
+
+  .gray{
+      color: #999;
+  }
+
+  .blue{
+    color: rgb(1, 145, 241)
+  }
+
+  .el-menu-vertical-demo{
+    .is-active{
+      background-color: rgb(38, 52,69) !important
+    }
+
+  } 
+
+  input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+ }
+ input[type="number"]{-moz-appearance:textfield;}
+ 
