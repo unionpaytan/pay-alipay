@@ -79,9 +79,14 @@ Pay聚合支付 是一套开箱即用、适合拿来直接运营的聚合支付�
 
 二维码上传
 
-![收款码拉单次数](https://cdn.jsdelivr.net/gh/unionpaytan/pay-alipay@main/%E7%B3%BB%E7%BB%9F%E7%95%8C%E9%9D%A2/%E8%AE%BE%E7%BD%AE%E6%8B%89%E5%8D%95%E6%AC%A1%E6%95%B0.png?raw=true "收款码拉单次数")
+![周转收款码拉单次数](https://cdn.jsdelivr.net/gh/unionpaytan/pay-alipay@main/%E7%B3%BB%E7%BB%9F%E7%95%8C%E9%9D%A2/%E8%AE%BE%E7%BD%AE%E6%8B%89%E5%8D%95%E6%AC%A1%E6%95%B0.png?raw=true "收款码拉单次数")
 
-收款款拉单次数
+周转收款款拉单次数
+
+![个人收款码](https://cdn.jsdelivr.net/gh/unionpaytan/pay-alipay@main/%E7%B3%BB%E7%BB%9F%E7%95%8C%E9%9D%A2/%E8%AE%BE%E7%BD%AE%E6%8B%89%E5%8D%95%E6%AC%A1%E6%95%B0.png?raw=true "个人收款码")
+
+个人收款码设置起始金额、可收款次数、可拉单次数
+
 
 ![前端充值界面](https://cdn.jsdelivr.net/gh/unionpaytan/pay-alipay@main/%E7%B3%BB%E7%BB%9F%E7%95%8C%E9%9D%A2/%E5%89%8D%E7%AB%AF%E5%85%85%E5%80%BC%E7%95%8C%E9%9D%A2.png?raw=true "前端充值界面")
 
